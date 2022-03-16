@@ -73,3 +73,13 @@
 2022-03-15 10:45:36,683 INFO:root: Start compiling llvm/clang
 2022-03-15 10:45:36,683 INFO:root: Compile started: (['cmake', '-G', 'Ninja', "-DLLVM_ENABLE_PROJECTS='clang'", '-DCMAKE_BUILD_TYPE=Debug', '-DLLVM_OPTIMIZED_TABLEGEN=ON', '-DLLVM_INCLUDE_EXAMPLES=OFF', '-DLLVM_INCLUDE_BENCHMARKS=OFF', "-DLLVM_TARGETS_TO_BUILD='X86'", '-DLLVM_PARALLEL_LINK_JOBS=2', '-DLLVM_USE_LINKER=gold', '/home/kuksag/Desktop/llvm-project/llvm'],), {}
 2022-03-15 10:45:55,523 INFO:root: Compile started: (['cmake', '-DCMAKE_C_COMPILER=/home/kuksag/Desktop/jb-kotlin-test-task/bin/clang', '-DCMAKE_CXX_COMPILER=/home/kuksag/Desktop/jb-kotlin-test-task/bin/clang++', '-DCMAKE_ASM_COMPILER=/home/kuksag/Desktop/jb-kotlin-test-task/bin/clang', '-G', 'Ninja', "-DLLVM_ENABLE_PROJECTS='clang'", '-DCMAKE_BUILD_TYPE=Debug', '-DLLVM_OPTIMIZED_TABLEGEN=ON', '-DLLVM_INCLUDE_EXAMPLES=OFF', '-DLLVM_INCLUDE_BENCHMARKS=OFF', "-DLLVM_TARGETS_TO_BUILD='X86'", '-DLLVM_PARALLEL_LINK_JOBS=2', '-DLLVM_USE_LINKER=gold', '/home/kuksag/Desktop/llvm-project/llvm'],), {}
+2022-03-16 00:04:31,462 INFO:root: Start compiling llvm/clang
+2022-03-16 00:04:31,462 INFO:root: Compile started: (['cmake', '-G', 'Ninja', "-DLLVM_ENABLE_PROJECTS='clang'", '-DCMAKE_BUILD_TYPE=Debug', '-DLLVM_OPTIMIZED_TABLEGEN=ON', '-DLLVM_INCLUDE_EXAMPLES=OFF', '-DLLVM_INCLUDE_BENCHMARKS=OFF', "-DLLVM_TARGETS_TO_BUILD='X86'", '-DLLVM_PARALLEL_LINK_JOBS=2', '-DLLVM_USE_LINKER=gold', '/home/kuksag/Desktop/llvm-project'],), {}
+2022-03-16 00:05:24,126 INFO:root: Start compiling llvm/clang
+2022-03-16 00:05:24,126 INFO:root: Compile started: (['cmake', '-G', 'Ninja', "-DLLVM_ENABLE_PROJECTS='clang'", '-DCMAKE_BUILD_TYPE=Debug', '-DLLVM_OPTIMIZED_TABLEGEN=ON', '-DLLVM_INCLUDE_EXAMPLES=OFF', '-DLLVM_INCLUDE_BENCHMARKS=OFF', "-DLLVM_TARGETS_TO_BUILD='X86'", '-DLLVM_PARALLEL_LINK_JOBS=2', '-DLLVM_USE_LINKER=gold', '/home/kuksag/Desktop/llvm-project/llvm'],), {}
+2022-03-16 09:45:15,833 INFO:root: Compile started: (['bin/clang-15', 'tests/main.cpp'],), {}
+2022-03-16 09:45:28,440 INFO:root: Compile started: (['g++', 'tests/main.cpp'],), {}
+2022-03-16 09:45:28,762 INFO:root: Compile finished; time duration, s: 0:00:00.321937
+2022-03-16 09:48:42,216 INFO:root: Compile started: (), {}
+2022-03-16 09:48:42,216 INFO:root: check
+2022-03-16 09:48:42,216 INFO:root: Compile finished; time duration, s: 0:00:00.000044
